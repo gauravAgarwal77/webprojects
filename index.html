@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>facebook</title>
+    <link rel="icon" href="images/facebook.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat&family=Play&family=Source+Sans+Pro&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: rgb(241, 241, 251);
+      }
+      h1 {
+        font-size: 75px;
+        color: rgb(60, 60, 134);
+      }
+      table {
+        width: 600px;
+        height: 700px;
+        border: 1px solid grey;
+        background-color: white;
+        border-radius: 10px;
+      }
+      .header {
+        border: 2px solid red;
+      }
+      .h1 {
+        font-size: 30px;
+        line-height: 150%;
+      }
+      .h2 {
+        text-align: center;
+        font-size: 20px;
+        color: grey;
+      }
+      .h3 {
+      }
+      .b1 {
+        text-align: center;
+      }
+      .b1 td input {
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 9px;
+      }
+      .b2 td input {
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 9px;
+        width: 550px;
+        margin: 5px;
+      }
+      .b3 td input {
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 9px;
+        width: 550px;
+        margin: 5px;
+      }
+      .b4 td {
+        color: grey;
+        padding: 5px;
+      }
+      .b5 td select {
+        padding: 11px;
+        font-size: 20px;
+        border-radius: 5px;
+        width: 175px;
+      }
+      .b6 td {
+        color: grey;
+        padding: 5px;
+      }
+
+      .t2 {
+        border: none;
+        height: 10px;
+      }
+      .t3 {
+        border: none;
+        height: 10px;
+        
+      }
+      .t3 tr{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .t3 td{
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 20px;
+        width: 10px;
+      }
+      .link {
+        text-decoration: none;
+      }
+      .link:hover {
+        text-decoration: underline;
+      }
+      .f2 td {
+        margin-bottom: 50px;
+      }
+      .btn {
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 25px;
+        background-color: rgb(17, 155, 17);
+        color: white;
+        font-weight: bold;
+      }
+      .btn:hover {
+        color: rgb(183, 214, 183);
+      }
+      .an {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 22px;
+        margin-top:20px;
+        margin-bottom: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>facebook</h1>
+
+      <table>
+        <thead class="header">
+          <tr class="h1">
+            <th colspan="2">Create a new account</th>
+          </tr>
+          <tr class="h2">
+            <td colspan="2">It's quick and easy</td>
+          </tr>
+          <tr class="h3">
+            <td colspan="2"><hr /></td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="b1">
+            <td><input type="text" placeholder="First Name" /></td>
+            <td><input type="text" placeholder="Last Name" /></td>
+          </tr>
+          <tr class="b2">
+            <td colspan="2">
+              <input type="text" placeholder="Mobile number or email address" />
+            </td>
+          </tr>
+          <tr class="b3">
+            <td colspan="2">
+              <input type="text" placeholder="New password" />
+            </td>
+          </tr>
+          <tr class="b4">
+            <td>Date of birth?</td>
+          </tr>
+          <tr class="b5">
+            <td colspan="2">
+              <table class="t2">
+                <tr>
+                  <td>
+                    <select name="DOB" id="DOB">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9" selected="1">9</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select name="Month" id="Month">
+                      <option value="1">Jan</option>
+                      <option value="2">Feb</option>
+                      <option value="3">Mar</option>
+                      <option value="4">Apr</option>
+                      <option value="5">May</option>
+                      <option value="6">Jun</option>
+                      <option value="7" selected="1">Jul</option>
+                      <option value="8">Aug</option>
+                      <option value="9">Sept</option>
+                      <option value="10">Oct</option>
+                      <option value="11">Nov</option>
+                      <option value="12">Dec</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select name="Year" id="Year">
+                      <option value="2022" selected="1">2022</option>
+                      <option value="2021">2021</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr class="b6">
+            <td>Gender?</td>
+          </tr>
+          <tr class="b7">
+            <td colspan="2">
+              <table cellspacing="25" class="t3">
+                <tr class="gender">
+                  <td>
+                    <label for="Gender1">Female</label>
+                    <input type="radio" />
+                  </td>
+                  <td >
+                    <label for="Gender2">Male</label>
+                    <input type="radio" />
+                  </td>
+                  <td>
+                    <label for="Gender3">Custom</label>
+                    <input type="radio" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <p class="f1">
+                People who use our service may have uploaded your contact
+                information to Facebook.
+                <a class="link" href="#">Learn more.</a>
+                <br />
+                <br />
+                By clicking Sign Up, you agree to our
+                <a class="link" href="#">Terms</a>,
+                <a class="link" href="#">Data Policy</a> and
+                <a class="link" href="#">Cookie Policy.</a> You may receive SMS
+                notifications from us and can opt out at any time.
+              </p>
+            </td>
+          </tr>
+          <tr class="f2">
+            <td colspan="2">
+              <button class="btn">Sign Up</button>
+            </td>
+          </tr>
+          <tr class="f3">
+            <td colspan="2">
+              <a class="an" href="#">Already have an account?</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </body>
+</html>
